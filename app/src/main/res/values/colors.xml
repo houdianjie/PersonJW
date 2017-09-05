@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#53ace5</color>
+    <color name="colorPrimaryDark">#53ace5</color>
+    <color name="colorAccent">#000000</color>
+    <color name="password_tv1_tip">#ff0011</color>
+    <color name="classroom_text_color">#000000</color>
+    <color name="exam_items_hori_dive">#000000</color>
+    <color name="view_color">#000</color>
+    <color name="text_colors">#000</color>
+    <color name="black">#000</color>
+
+</resources>

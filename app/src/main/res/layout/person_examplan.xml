@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/all_bg_color">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/person_examplan_btn"
+        android:text="获取考试安排"
+        android:onClick="examplan_click"
+        android:background="@drawable/login_btn_bg"
+        android:layout_gravity="center"
+        android:layout_margin="6dp"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/person_examplan_lv"
+        android:dividerHeight="0dp">
+
+    </ListView>
+
+</LinearLayout>

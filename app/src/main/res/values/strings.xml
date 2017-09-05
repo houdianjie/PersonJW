@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">青大掌上教务</string>
+    <string name="person_course_class">\n\n\n\n</string>
+    <string name="person_score_list">\n\n</string>
+    <string name="password_tip">提示 \n密码不能包含大于符号、小于符号、引号、中文、全角字符，前后也不能有空格！密码必须大于等于6个字符，并且包含字母和数字！（教务原话，否则后果自负！作者就是受害者啊。。。）</string>
+    <string name="classroom_tip">请选择校区</string>
+    <string name="classroom_tip1">请选择教学楼</string>
+    <string name="classroom_tip2">请选择周数</string>
+    <string name="classroom_tip3">请选择周几</string>
+    <string name="classroom_tip4">提示:教室查询是根据教务所得，可能与实际情况有出入，仅供参考！</string>
+    <string name="info_tv">\t</string>
+    <string name="remember_password">记住密码</string>
+    <string name="info_tv_tip">注意：只能获取主修专业！</string>
+    <string name="report_debug">不足之处还请谅解。。。\n功能好不好用，还得看你们，欢迎反馈问题，QQ:352026213(反馈情注明备注:掌教用户)</string>
+     <string name="version_name">版本号：</string>
+</resources>

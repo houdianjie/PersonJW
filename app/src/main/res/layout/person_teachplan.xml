@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/all_bg_color">
+    <Button
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/person_teachplan_btn1"
+        android:background="@drawable/login_btn_bg"
+        android:onClick="person_teachplan_click"
+        android:text="获取计划"/>
+    <LinearLayout
+        android:paddingBottom="4dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:hint="请输入关键字"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/person_teachplan_et"
+            android:background="@drawable/classroom_search_bg"/>
+        <Button
+            android:background="@drawable/login_btn_bg"
+            android:layout_margin="3dp"
+            android:layout_weight="2.7"
+            android:id="@+id/person_teachplan_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="按学年查询"
+            android:onClick="person_teachplan_search_click"/>
+
+    </LinearLayout>
+<ListView
+    android:id="@+id/person_teachplan_lv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</ListView>
+</LinearLayout>
